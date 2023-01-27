@@ -1,0 +1,103 @@
+.logo {
+    height: 4em;
+}
+
+.header-nav {
+    padding: 1em;
+}
+
+.header-nav li {
+    display: inline-block;
+    padding: 1em 0.5em;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header-nav a {
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid red;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.header-nav a:hover {
+    color: white;
+    background-color: red;
+}
+
+.naslov {
+    background-color: red;
+    color: white;
+    padding: 0.5em;
+}
+
+.info-sekcija p {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.small {
+    height: 40px;
+    margin-left: 10px;
+}
+
+.vozac-ime, .tim-naziv {
+    display: inline-block;
+    /* display: inline-block omogucava da element h3 zauzima jednu liniju i samo onoliko prostora koliko mu je potrebno */
+    font-weight: bold;
+}
+
+.vozac-slika {
+    display: block;
+    /* display: block omogucava da element zauzme ceo red */
+    margin: 0 auto;
+}
+
+.razmak {
+    /* ova klasa postavalja padding gore i padding dole kao razmak izmedju vozaca*/
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.opis {
+    /* klasa opis uredjuje p tag nakon naslova za f1 timove i vozace */
+    font-size: 18px;
+    background-color: rgb(204, 204, 204);
+    padding: 10px;
+    border-radius: 10px;
+    /* Border radius je koliko ce ivice bordera nekog elementa biti zakrivljene */
+}
+
+.logo {
+    height: 60px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.footer {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+}
+
+.posalji {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
